@@ -5,6 +5,7 @@ import 'package:tarvel_app/screens/tour_screen/location_stack.dart';
 import 'package:tarvel_app/typography/heading.dart';
 import 'package:tarvel_app/typography/main_text.dart';
 
+import 'back_buttom.dart';
 import 'book_trip_buttom.dart';
 
 class ForegroundWidget extends StatelessWidget {
@@ -27,18 +28,7 @@ class ForegroundWidget extends StatelessWidget {
         appBar: AppBar(
           elevation: 0,
           backgroundColor: Colors.transparent,
-          leading: Container(
-            height: 50,
-            width: 50,
-            decoration: BoxDecoration(
-              color: Colors.grey.shade700,
-              shape: BoxShape.circle,
-            ),
-            child: Icon(
-              Icons.arrow_back,
-              color: Colors.white,
-            ),
-          ),
+          leading: const BackButtom(),
         ),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
