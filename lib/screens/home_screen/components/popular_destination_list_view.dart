@@ -59,7 +59,7 @@ class PopularDestinationCard extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Column(
@@ -69,12 +69,12 @@ class PopularDestinationCard extends StatelessWidget {
                     children: [
                       Text(
                         popularDestination.title,
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontWeight: FontWeight.w800,
                           fontSize: 15,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 80,
                       ),
                       Icon(
@@ -83,7 +83,7 @@ class PopularDestinationCard extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(height: 10),
+                  const SizedBox(height: 10),
                   RatingIcon(20)
                 ],
               ),
