@@ -8,7 +8,7 @@ import 'package:tarvel_app/typography/main_text.dart';
 import 'back_buttom.dart';
 import 'book_trip_buttom.dart';
 
-class ForegroundWidget extends StatelessWidget {
+class BodyLocation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     void selectLocation() {
