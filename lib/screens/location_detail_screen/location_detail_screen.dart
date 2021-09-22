@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'components/foreground_widget.dart';
+import 'components/body_location.dart';
 
 class LOcationDetailScreen extends StatelessWidget {
   @override
