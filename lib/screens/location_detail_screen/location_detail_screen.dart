@@ -16,7 +16,7 @@ class LOcationDetailScreen extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
-        ForegroundWidget(),
+        BodyLocation(),
       ],
     );
   }
