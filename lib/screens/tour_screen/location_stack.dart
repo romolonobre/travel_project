@@ -27,22 +27,18 @@ class LocationStack extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
+                const Heading(
                   'Trip To',
-                  style: TextStyle(
-                      color: Colors.white70,
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold),
+                  color: Colors.white70,
+                  FontWeight: FontWeight.bold,
+                  heading: Headings.h5,
                 ),
-                SizedBox(height: 10),
-                Text(
-                  'Faroe Islands',
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold),
-                ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
+                const Heading('Faroe Islands',
+                    color: Colors.white,
+                    FontWeight: FontWeight.bold,
+                    heading: Headings.h1),
+                const SizedBox(height: 10),
                 RatingIcon(18),
               ],
             ),
