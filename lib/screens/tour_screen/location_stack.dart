@@ -48,7 +48,7 @@ class LocationStack extends StatelessWidget {
             child: Container(
               height: MediaQuery.of(context).size.height * 0.59,
               width: MediaQuery.of(context).size.width,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(40),
@@ -62,7 +62,7 @@ class LocationStack extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Heading(
+                      const Heading(
                         'Tour Details',
                         heading: Headings.h2,
                         FontWeight: FontWeight.w700,
@@ -79,7 +79,7 @@ class LocationStack extends StatelessWidget {
                       ),
                     ],
                   ),
-                  MainText(
+                  const MainText(
                     'Duration = 15 Days',
                     size: 14,
                     color: Colors.grey,
