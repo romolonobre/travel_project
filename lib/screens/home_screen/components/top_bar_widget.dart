@@ -16,7 +16,7 @@ class TopBarWidget extends StatelessWidget {
             size: 22,
             fontWeight: FontWeight.w800,
           ),
-          CircleAvatar(
+          const CircleAvatar(
             backgroundColor: Colors.white,
             radius: 50,
             child: CircleAvatar(
