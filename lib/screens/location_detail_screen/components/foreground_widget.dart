@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:tarvel_app/screen/location_detail_screen/components/book_trip_buttom.dart';
-import 'package:tarvel_app/location_stack.dart';
 
 import 'package:tarvel_app/screen/location_detail_screen/components/rating_icon.dart';
+import 'package:tarvel_app/screens/tour_screen/location_stack.dart';
 import 'package:tarvel_app/typography/heading.dart';
 import 'package:tarvel_app/typography/main_text.dart';
+
+import 'book_trip_buttom.dart';
 
 class ForegroundWidget extends StatelessWidget {
   @override

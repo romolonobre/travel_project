@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:tarvel_app/constants/colors.dart';
-import 'package:tarvel_app/rating_icon.dart';
+import 'package:tarvel_app/screen/location_detail_screen/components/rating_icon.dart';
 
 import 'package:tarvel_app/typography/heading.dart';
 import 'package:tarvel_app/typography/main_text.dart';
-import 'package:tarvel_app/tour_detail_list.dart';
+import 'package:tarvel_app/screen/tour_screen/tour_detail_list.dart';
 
 class LocationStack extends StatelessWidget {
   @override
