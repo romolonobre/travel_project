@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:tarvel_app/color/colors.dart';
+import 'package:tarvel_app/constants/colors.dart';
 
 class SearchBarWidget extends StatelessWidget {
   @override

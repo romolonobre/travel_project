@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:tarvel_app/color/colors.dart';
+import 'package:tarvel_app/constants/colors.dart';
 import 'package:tarvel_app/models/tour_locations.dart';
 import 'package:tarvel_app/tipography/heading.dart';
 import 'package:tarvel_app/tipography/main_text.dart';

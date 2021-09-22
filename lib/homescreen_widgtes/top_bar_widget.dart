@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tarvel_app/color/colors.dart';
+import 'package:tarvel_app/constants/colors.dart';
 import 'package:tarvel_app/tipography/main_text.dart';
 
 class TopBarWidget extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tarvel_app/color/colors.dart';
+import 'package:tarvel_app/constants/colors.dart';
 import 'package:tarvel_app/rating_icon.dart';
 import 'package:tarvel_app/screen/location_detail_screen.dart';
 import 'package:tarvel_app/tipography/heading.dart';
