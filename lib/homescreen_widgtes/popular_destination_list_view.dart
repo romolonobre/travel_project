@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tarvel_app/data/popular_destination.dart';
+import 'package:tarvel_app/models/popular_destination.dart';
 import 'package:tarvel_app/rating_icon.dart';
 import 'package:tarvel_app/screen/location_detail_screen.dart';
 

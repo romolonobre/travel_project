@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:tarvel_app/color/colors.dart';
-import 'package:tarvel_app/data/category.dart';
+import 'package:tarvel_app/models/category.dart';
 
 class CategoriesListView extends StatelessWidget {
   @override
