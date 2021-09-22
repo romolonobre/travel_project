@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:tarvel_app/constants/colors.dart';
 import 'package:tarvel_app/models/tour_locations.dart';
-import 'package:tarvel_app/tipography/heading.dart';
-import 'package:tarvel_app/tipography/main_text.dart';
+import 'package:tarvel_app/typography/heading.dart';
+import 'package:tarvel_app/typography/main_text.dart';
 
 class TourDetailList extends StatelessWidget {
   @override

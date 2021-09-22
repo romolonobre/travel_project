@@ -3,8 +3,8 @@ import 'package:tarvel_app/book_trip_buttom.dart';
 import 'package:tarvel_app/location_stack.dart';
 
 import 'package:tarvel_app/rating_icon.dart';
-import 'package:tarvel_app/tipography/heading.dart';
-import 'package:tarvel_app/tipography/main_text.dart';
+import 'package:tarvel_app/typography/heading.dart';
+import 'package:tarvel_app/typography/main_text.dart';
 
 class ForegroundWidget extends StatelessWidget {
   @override

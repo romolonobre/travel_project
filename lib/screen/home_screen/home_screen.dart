@@ -6,7 +6,7 @@ import 'components/popular_destination_list_view.dart';
 
 import 'components/search_bar_widget.dart';
 
-import 'package:tarvel_app/tipography/heading.dart';
+import 'package:tarvel_app/typography/heading.dart';
 
 import 'components/top_bar_widget.dart';
 

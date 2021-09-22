@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tarvel_app/constants/colors.dart';
-import 'package:tarvel_app/tipography/main_text.dart';
+import 'package:tarvel_app/typography/main_text.dart';
 
 class TopBarWidget extends StatelessWidget {
   @override
