@@ -33,62 +33,62 @@ class ForegroundWidget extends StatelessWidget {
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(
+            const SizedBox(
               height: 300,
             ),
             Row(
               children: [
                 RatingIcon(20),
-                SizedBox(width: 6),
-                MainText(
+                const SizedBox(width: 6),
+                const MainText(
                   '5.0',
                   color: Colors.white,
                   size: 20,
                 ),
               ],
             ),
-            SizedBox(height: 6),
+            const SizedBox(height: 6),
             MainText(
               '500 Reviews',
               color: Colors.grey.shade400,
               size: 12,
             ),
-            SizedBox(height: 40),
-            Heading(
+            const SizedBox(height: 40),
+            const Heading(
               'Faroe Islands',
               color: Colors.white,
               heading: Headings.h1,
               FontWeight: FontWeight.bold,
             ),
-            SizedBox(height: 6),
+            const SizedBox(height: 6),
             MainText(
               'The  Faroe  Islands  Was  Doing \nHomespun  Way Before  it  Became  Hip\nWith  Its Curious  Food  Scene  And\nDown-Home  Aestetic',
               fontWeight: FontWeight.w400,
               color: Colors.grey.shade300,
             ),
-            SizedBox(height: 40),
+            const SizedBox(height: 40),
             Row(
               children: [
                 MainText(
                   'From',
                   color: Colors.grey.shade300,
                 ),
-                SizedBox(width: 8),
-                Heading(
+                const SizedBox(width: 8),
+                const Heading(
                   '\$5000',
                   FontWeight: FontWeight.bold,
                   heading: Headings.h2,
                 ),
               ],
             ),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             BookTripButtom(),
-            SizedBox(height: 40),
+            const SizedBox(height: 40),
             Align(
               alignment: Alignment.center,
               child: InkWell(
                 onTap: () => selectLocation(),
-                child: MainText(
+                child: const MainText(
                   'More Details',
                   fontWeight: FontWeight.bold,
                   size: 18,
