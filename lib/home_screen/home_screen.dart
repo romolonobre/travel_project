@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import 'package:tarvel_app/homescreen_widgtes/categories_list_view.dart';
-import 'package:tarvel_app/homescreen_widgtes/popular_destination_list_view.dart';
+import 'components/categories_list_view.dart';
+import 'components/popular_destination_list_view.dart';
 
-import 'package:tarvel_app/homescreen_widgtes/search_bar_widget.dart';
-import 'package:tarvel_app/homescreen_widgtes/top_bar_widget.dart';
+import 'components/search_bar_widget.dart';
+
 import 'package:tarvel_app/tipography/heading.dart';
+
+import 'components/top_bar_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
