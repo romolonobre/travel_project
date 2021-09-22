@@ -18,16 +18,7 @@ class LocationStack extends StatelessWidget {
           Positioned(
             top: 40,
             left: 20,
-            child: Container(
-              height: 50,
-              width: 50,
-              decoration: BoxDecoration(
-                  color: Colors.grey.shade400, shape: BoxShape.circle),
-              child: Icon(
-                Icons.arrow_back,
-                color: Colors.white,
-              ),
-            ),
+            child: BackButtom(),
           ),
           Positioned(
             top: 240,
@@ -102,6 +93,26 @@ class LocationStack extends StatelessWidget {
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class BackButtom extends StatelessWidget {
+  const BackButtom({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 50,
+      width: 50,
+      decoration:
+          BoxDecoration(color: Colors.grey.shade400, shape: BoxShape.circle),
+      child: Icon(
+        Icons.arrow_back,
+        color: Colors.white,
       ),
     );
   }
