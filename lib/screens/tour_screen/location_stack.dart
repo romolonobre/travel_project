@@ -6,6 +6,7 @@ import 'package:tarvel_app/screens/tour_screen/tour_detail_list.dart';
 import 'package:tarvel_app/typography/heading.dart';
 import 'package:tarvel_app/typography/main_text.dart';
 
+import 'components/add_buttom.dart';
 import 'components/back_buttom.dart';
 import 'components/image_header.dart';
 
@@ -61,22 +62,13 @@ class LocationStack extends StatelessWidget {
                 children: [
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      const Heading(
+                    children: const [
+                      Heading(
                         'Tour Details',
                         heading: Headings.h2,
                         FontWeight: FontWeight.w700,
                       ),
-                      Container(
-                        height: 50,
-                        width: 50,
-                        decoration: BoxDecoration(
-                            color: secondcolor, shape: BoxShape.circle),
-                        child: Icon(
-                          Icons.add,
-                          color: maincolor,
-                        ),
-                      ),
+                      AddButtom(),
                     ],
                   ),
                   const MainText(
