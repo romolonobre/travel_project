@@ -67,6 +67,7 @@ class LocationStack extends StatelessWidget {
                         'Tour Details',
                         heading: Headings.h2,
                         FontWeight: FontWeight.w700,
+                        color: Colors.black,
                       ),
                       AddButtom(),
                     ],
