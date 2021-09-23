@@ -69,15 +69,24 @@ class BodyLocation extends StatelessWidget {
             const SizedBox(height: 40),
             Row(
               children: [
-                MainText(
-                  'From',
-                  color: Colors.grey.shade300,
-                ),
-                const SizedBox(width: 8),
-                const Heading(
-                  '\$5000',
-                  FontWeight: FontWeight.bold,
-                  heading: Headings.h2,
+                RichText(
+                  text: TextSpan(
+                    children: [
+                      TextSpan(
+                        text: 'From',
+                        style: TextStyle(
+                          color: Colors.grey.shade300,
+                        ),
+                      ),
+                      const TextSpan(
+                        text: ' \$5000',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 24,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),
