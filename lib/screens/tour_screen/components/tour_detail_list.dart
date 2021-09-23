@@ -5,6 +5,10 @@ import 'package:tarvel_app/models/tour_locations.dart';
 import 'package:tarvel_app/typography/heading.dart';
 import 'package:tarvel_app/typography/main_text.dart';
 
+/// This widget draws the tour locations list
+/// that display  how the tour will looks like.
+/// We used listview.builder
+
 class TourDetailList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
