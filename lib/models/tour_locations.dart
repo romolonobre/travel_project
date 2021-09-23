@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+/// This is the Tour locations model that
+/// we diplay informations about the tour,
+/// we used in $TourScreen
+///
+
 class TourLocation {
   final String title;
   final String subtitle;

@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:tarvel_app/constants/colors.dart';
 
+// This widget draws add buttom
+//
+
 class AddButtom extends StatelessWidget {
   const AddButtom({
     Key? key,

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+// This Widget draws a text with
+// 2 different sizes and colors
+
 class CustomRichText extends StatelessWidget {
   const CustomRichText({
     Key? key,

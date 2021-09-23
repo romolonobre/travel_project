@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+/// This is the Destination model,
+/// we have a imageUrl and a title
+/// to diplay in the Card Widget
+
 class PopularDestination {
   final String imageUrl;
   final String title;

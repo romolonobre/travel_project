@@ -3,6 +3,11 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:tarvel_app/constants/colors.dart';
 import 'package:tarvel_app/models/category.dart';
 
+/// This Widget drwas a listview with
+/// the categories cards to display
+/// on $HomeScreen. We used Svg to diplay
+/// the icons
+
 class CategoriesListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -37,12 +42,17 @@ class CategoriesCard extends StatelessWidget {
           padding: const EdgeInsets.only(top: 15),
           child: Column(
             children: [
+              // We use a container to draws the
+              // light green circle with the svg icon
+
               Container(
                 height: 60,
                 width: 60,
                 decoration:
                     BoxDecoration(color: secondcolor1, shape: BoxShape.circle),
                 child: Center(
+                  // Svg value
+
                   child: SvgPicture.asset(
                     category.iconPath,
                     height: 36,
@@ -52,7 +62,11 @@ class CategoriesCard extends StatelessWidget {
                   ),
                 ),
               ),
+
               const SizedBox(height: 10),
+
+              // Text Value
+
               Text(
                 category.category,
                 style: const TextStyle(

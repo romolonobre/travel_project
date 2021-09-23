@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+//This widget drwas our icon Reviews.
+// we use the star icon
+
 class RatingIcon extends StatelessWidget {
   double size;
   RatingIcon(this.size);
