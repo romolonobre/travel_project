@@ -22,7 +22,7 @@ class BodyTour extends StatelessWidget {
             top: 40,
             left: 20,
             child: BackButtom(
-              icon: const Icon(
+              icon: Icon(
                 Icons.arrow_back,
               ),
             ),
