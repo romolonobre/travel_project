@@ -98,7 +98,9 @@ class TourLocactionsCard extends StatelessWidget {
                       Text(
                         tourLocation.km,
                         style: TextStyle(
-                            color: maincolor, fontWeight: FontWeight.w800),
+                          color: maincolor,
+                          fontWeight: FontWeight.w800,
+                        ),
                       )
                     ],
                   )
