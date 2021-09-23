@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:tarvel_app/typography/heading.dart';
 
-import 'components/categories_list_view.dart';
-import 'components/popular_destination_list_view.dart';
-import 'components/search_bar_widget.dart';
-import 'components/top_bar_widget.dart';
+import 'categories_list_view.dart';
+import 'popular_destination_list_view.dart';
+import 'search_bar_widget.dart';
+import 'top_bar_widget.dart';
 
 class BodyHome extends StatelessWidget {
   const BodyHome({
