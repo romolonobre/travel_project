@@ -44,20 +44,20 @@ class TourLocactionsCard extends StatelessWidget {
                   color: maincolor,
                   shape: BoxShape.circle,
                 ),
-                child: Icon(
+                child: const Icon(
                   Icons.circle,
                   size: 6,
                   color: Colors.white,
                 ),
               ),
-              SizedBox(width: 10),
+              const SizedBox(width: 10),
               Text(tourLocation.date),
             ],
           ),
-          SizedBox(height: 15),
+          const SizedBox(height: 15),
           Row(
             children: [
-              SizedBox(width: 40),
+              const SizedBox(width: 40),
               ClipRRect(
                 borderRadius: BorderRadius.circular(15),
                 child: Image.network(
@@ -67,7 +67,7 @@ class TourLocactionsCard extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
               ),
-              SizedBox(width: 10),
+              const SizedBox(width: 10),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -77,13 +77,13 @@ class TourLocactionsCard extends StatelessWidget {
                     color: Colors.black,
                     FontWeight: FontWeight.bold,
                   ),
-                  SizedBox(height: 8),
+                  const SizedBox(height: 8),
                   MainText(
                     tourLocation.subtitle,
                     color: Colors.grey.shade400,
                     size: 12,
                   ),
-                  SizedBox(height: 15),
+                  const SizedBox(height: 15),
                   Row(
                     children: [
                       Icon(

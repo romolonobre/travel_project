@@ -12,7 +12,7 @@ class BackButtom extends StatelessWidget {
       width: 50,
       decoration:
           BoxDecoration(color: Colors.grey.shade400, shape: BoxShape.circle),
-      child: Icon(
+      child: const Icon(
         Icons.arrow_back,
         color: Colors.white,
       ),

@@ -16,8 +16,8 @@ class BodyTour extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          ImageHeader(),
-          Positioned(
+          const ImageHeader(),
+          const Positioned(
             top: 40,
             left: 20,
             child: BackButtom(),
