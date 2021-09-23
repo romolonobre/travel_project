@@ -42,6 +42,9 @@ class CategoriesCard extends StatelessWidget {
           padding: const EdgeInsets.only(top: 15),
           child: Column(
             children: [
+              // We use a container to draws the
+              // light green circle with the svg icon
+
               Container(
                 height: 60,
                 width: 60,
