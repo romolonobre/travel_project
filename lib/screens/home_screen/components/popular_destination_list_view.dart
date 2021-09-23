@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:tarvel_app/data/popular_destination.dart';
-import 'package:tarvel_app/rating_icon.dart';
-import 'package:tarvel_app/screen/location_detail_screen.dart';
+import 'package:tarvel_app/models/popular_destination.dart';
+import 'package:tarvel_app/screens/location_detail_screen/components/rating_icon.dart';
+
+import 'package:tarvel_app/screens/location_detail_screen/location_detail_screen.dart';
 
 class PopulaDestinationListView extends StatelessWidget {
   @override
@@ -58,7 +59,7 @@ class PopularDestinationCard extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Column(
@@ -68,12 +69,12 @@ class PopularDestinationCard extends StatelessWidget {
                     children: [
                       Text(
                         popularDestination.title,
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontWeight: FontWeight.w800,
                           fontSize: 15,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 80,
                       ),
                       Icon(
@@ -82,7 +83,7 @@ class PopularDestinationCard extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(height: 10),
+                  const SizedBox(height: 10),
                   RatingIcon(20)
                 ],
               ),

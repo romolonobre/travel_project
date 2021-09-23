@@ -1,24 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:tarvel_app/book_trip_buttom.dart';
-import 'package:tarvel_app/location_stack.dart';
+import 'package:tarvel_app/screens/location_detail_screen/components/rating_icon.dart';
 
-import 'package:tarvel_app/rating_icon.dart';
-import 'package:tarvel_app/tipography/heading.dart';
-import 'package:tarvel_app/tipography/main_text.dart';
+import 'package:tarvel_app/screens/tour_screen/body_tour.dart';
+import 'package:tarvel_app/typography/heading.dart';
+import 'package:tarvel_app/typography/main_text.dart';
 
-class ForegroundWidget extends StatelessWidget {
+import '../../../global-Widgets/back_buttom.dart';
+import 'book_trip_buttom.dart';
+import 'custom_rich_text.dart';
+
+class BodyLocation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    void selectLocation() {
-      Navigator.of(context).push(
-        MaterialPageRoute(
-          builder: (_) {
-            return LocationStack();
-          },
-        ),
-      );
-    }
-
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Scaffold(
@@ -26,78 +19,70 @@ class ForegroundWidget extends StatelessWidget {
         appBar: AppBar(
           elevation: 0,
           backgroundColor: Colors.transparent,
-          leading: Container(
-            height: 50,
-            width: 50,
-            decoration: BoxDecoration(
-              color: Colors.grey.shade700,
-              shape: BoxShape.circle,
-            ),
-            child: Icon(
+          leading: BackButtom(
+            icon: const Icon(
               Icons.arrow_back,
-              color: Colors.white,
             ),
           ),
         ),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(
+            const SizedBox(
               height: 300,
             ),
             Row(
               children: [
                 RatingIcon(20),
-                SizedBox(width: 6),
-                MainText(
+                const SizedBox(width: 6),
+                const MainText(
                   '5.0',
                   color: Colors.white,
                   size: 20,
                 ),
               ],
             ),
-            SizedBox(height: 6),
+            const SizedBox(height: 6),
             MainText(
               '500 Reviews',
               color: Colors.grey.shade400,
               size: 12,
             ),
-            SizedBox(height: 40),
-            Heading(
+            const SizedBox(height: 40),
+            const Heading(
               'Faroe Islands',
               color: Colors.white,
               heading: Headings.h1,
               FontWeight: FontWeight.bold,
             ),
-            SizedBox(height: 6),
+            const SizedBox(height: 6),
             MainText(
               'The  Faroe  Islands  Was  Doing \nHomespun  Way Before  it  Became  Hip\nWith  Its Curious  Food  Scene  And\nDown-Home  Aestetic',
               fontWeight: FontWeight.w400,
               color: Colors.grey.shade300,
             ),
-            SizedBox(height: 40),
+            const SizedBox(height: 40),
             Row(
-              children: [
-                MainText(
-                  'From',
-                  color: Colors.grey.shade300,
-                ),
-                SizedBox(width: 8),
-                Heading(
-                  '\$5000',
-                  FontWeight: FontWeight.bold,
-                  heading: Headings.h2,
-                ),
+              children: const [
+                CustomRichText(),
               ],
             ),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             BookTripButtom(),
-            SizedBox(height: 40),
+            const SizedBox(height: 40),
             Align(
               alignment: Alignment.center,
               child: InkWell(
-                onTap: () => selectLocation(),
-                child: MainText(
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) {
+                        return BodyTour();
+                      },
+                    ),
+                  );
+                },
+                child: const MainText(
                   'More Details',
                   fontWeight: FontWeight.bold,
                   size: 18,

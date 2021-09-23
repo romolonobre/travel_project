@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tarvel_app/foreground_widget.dart';
+
+import 'components/body_location.dart';
 
 class LOcationDetailScreen extends StatelessWidget {
   @override
@@ -15,7 +16,7 @@ class LOcationDetailScreen extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
-        ForegroundWidget(),
+        BodyLocation(),
       ],
     );
   }

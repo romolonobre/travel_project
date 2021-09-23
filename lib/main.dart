@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:tarvel_app/screen/home_screen.dart';
+import 'screens/home_screen/home_screen.dart';
 
 void main() {
   runApp(MyApp());

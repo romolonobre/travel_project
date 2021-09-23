@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tarvel_app/color/colors.dart';
-import 'package:tarvel_app/tipography/main_text.dart';
+import 'package:tarvel_app/constants/colors.dart';
+import 'package:tarvel_app/typography/main_text.dart';
 
 class TopBarWidget extends StatelessWidget {
   @override
@@ -16,7 +16,7 @@ class TopBarWidget extends StatelessWidget {
             size: 22,
             fontWeight: FontWeight.w800,
           ),
-          CircleAvatar(
+          const CircleAvatar(
             backgroundColor: Colors.white,
             radius: 50,
             child: CircleAvatar(

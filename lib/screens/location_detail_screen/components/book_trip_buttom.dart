@@ -11,7 +11,7 @@ class BookTripButtom extends StatelessWidget {
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [
+        children: const [
           Text(
             'Book Trip',
             style: TextStyle(

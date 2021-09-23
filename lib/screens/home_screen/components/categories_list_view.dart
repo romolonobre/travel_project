@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:tarvel_app/color/colors.dart';
-import 'package:tarvel_app/data/category.dart';
+import 'package:tarvel_app/constants/colors.dart';
+import 'package:tarvel_app/models/category.dart';
 
 class CategoriesListView extends StatelessWidget {
   @override
@@ -52,7 +52,7 @@ class CategoriesCard extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Text(
                 category.category,
                 style: const TextStyle(
