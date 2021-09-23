@@ -30,7 +30,7 @@ class TourLocactionsCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 140,
       width: double.infinity,
       child: Column(
