@@ -48,6 +48,8 @@ class CategoriesCard extends StatelessWidget {
                 decoration:
                     BoxDecoration(color: secondcolor1, shape: BoxShape.circle),
                 child: Center(
+                  // Svg value
+
                   child: SvgPicture.asset(
                     category.iconPath,
                     height: 36,
@@ -57,7 +59,11 @@ class CategoriesCard extends StatelessWidget {
                   ),
                 ),
               ),
+
               const SizedBox(height: 10),
+
+              // Text Value
+
               Text(
                 category.category,
                 style: const TextStyle(
