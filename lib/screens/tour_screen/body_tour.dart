@@ -18,10 +18,14 @@ class BodyTour extends StatelessWidget {
       body: Stack(
         children: [
           const ImageHeader(),
-          const Positioned(
+          Positioned(
             top: 40,
             left: 20,
-            child: BackButtom(),
+            child: BackButtom(
+              icon: const Icon(
+                Icons.arrow_back,
+              ),
+            ),
           ),
           Positioned(
             top: 240,

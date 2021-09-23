@@ -19,7 +19,11 @@ class BodyLocation extends StatelessWidget {
         appBar: AppBar(
           elevation: 0,
           backgroundColor: Colors.transparent,
-          leading: const BackButtom(),
+          leading: BackButtom(
+            icon: const Icon(
+              Icons.arrow_back,
+            ),
+          ),
         ),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
