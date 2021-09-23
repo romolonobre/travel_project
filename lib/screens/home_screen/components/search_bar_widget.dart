@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:tarvel_app/constants/colors.dart';
 
+/// This Widget draws a custom Search bar.
+/// We used TextField Widget to allow the use to
+/// type input
+
 class SearchBarWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
