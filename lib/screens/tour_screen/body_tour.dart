@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tarvel_app/constants/colors.dart';
+import 'package:tarvel_app/global-Widgets/back_buttom.dart';
 import 'package:tarvel_app/screens/location_detail_screen/components/rating_icon.dart';
 import 'package:tarvel_app/screens/tour_screen/components/tour_detail_list.dart';
 
@@ -7,7 +8,7 @@ import 'package:tarvel_app/typography/heading.dart';
 import 'package:tarvel_app/typography/main_text.dart';
 
 import 'components/add_buttom.dart';
-import 'components/back_buttom.dart';
+
 import 'components/image_header.dart';
 
 class BodyTour extends StatelessWidget {

@@ -5,7 +5,7 @@ import 'package:tarvel_app/screens/tour_screen/body_tour.dart';
 import 'package:tarvel_app/typography/heading.dart';
 import 'package:tarvel_app/typography/main_text.dart';
 
-import 'back_buttom.dart';
+import '../../../global-Widgets/back_buttom.dart';
 import 'book_trip_buttom.dart';
 import 'custom_rich_text.dart';
 
