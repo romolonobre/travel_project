@@ -10,7 +10,7 @@ import 'components/add_buttom.dart';
 import 'components/back_buttom.dart';
 import 'components/image_header.dart';
 
-class LocationStack extends StatelessWidget {
+class BodyTour extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
