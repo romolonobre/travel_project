@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tarvel_app/constants/colors.dart';
 import 'package:tarvel_app/screens/location_detail_screen/components/rating_icon.dart';
-import 'package:tarvel_app/screens/tour_screen/tour_detail_list.dart';
+import 'package:tarvel_app/screens/tour_screen/components/tour_detail_list.dart';
 
 import 'package:tarvel_app/typography/heading.dart';
 import 'package:tarvel_app/typography/main_text.dart';
