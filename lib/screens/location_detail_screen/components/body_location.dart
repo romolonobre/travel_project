@@ -12,16 +12,6 @@ import 'custom_rich_text.dart';
 class BodyLocation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    void selectLocation() {
-      Navigator.of(context).push(
-        MaterialPageRoute(
-          builder: (_) {
-            return BodyTour();
-          },
-        ),
-      );
-    }
-
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Scaffold(
@@ -79,7 +69,15 @@ class BodyLocation extends StatelessWidget {
             Align(
               alignment: Alignment.center,
               child: InkWell(
-                onTap: () => selectLocation(),
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) {
+                        return BodyTour();
+                      },
+                    ),
+                  );
+                },
                 child: const MainText(
                   'More Details',
                   fontWeight: FontWeight.bold,
