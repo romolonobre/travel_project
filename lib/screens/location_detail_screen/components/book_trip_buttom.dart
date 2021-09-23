@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+///This Widget draws a buttom to
+///book the trip, has a text value and an icon value
+
 class BookTripButtom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
