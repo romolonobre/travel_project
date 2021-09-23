@@ -7,6 +7,7 @@ import 'package:tarvel_app/typography/main_text.dart';
 
 import 'back_buttom.dart';
 import 'book_trip_buttom.dart';
+import 'custom_rich_text.dart';
 
 class BodyLocation extends StatelessWidget {
   @override
@@ -68,26 +69,8 @@ class BodyLocation extends StatelessWidget {
             ),
             const SizedBox(height: 40),
             Row(
-              children: [
-                RichText(
-                  text: TextSpan(
-                    children: [
-                      TextSpan(
-                        text: 'From',
-                        style: TextStyle(
-                          color: Colors.grey.shade300,
-                        ),
-                      ),
-                      const TextSpan(
-                        text: ' \$5000',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 24,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
+              children: const [
+                CustomRichText(),
               ],
             ),
             const SizedBox(height: 15),
