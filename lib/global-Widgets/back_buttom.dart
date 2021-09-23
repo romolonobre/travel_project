@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 /// This Widget drawns a circle buttom,
 /// as a global widget we can use it
 /// anywhere in our application. We have
-/// to specify what icon we want display
-/// on it
+/// to specify what icon we want display.
+///
 ///
 
 class BackButtom extends StatelessWidget {
