@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 ///
 
 class BackButtom extends StatelessWidget {
-  const BackButtom({required this.icon});
+  BackButtom({required this.icon});
 
   final Icon icon;
   @override
@@ -17,7 +17,7 @@ class BackButtom extends StatelessWidget {
       height: 50,
       width: 50,
       decoration: BoxDecoration(
-        color: Colors.grey.shade700,
+        color: Colors.white54.withOpacity(0.2),
         shape: BoxShape.circle,
       ),
       child: icon,

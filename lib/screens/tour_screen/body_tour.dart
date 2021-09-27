@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:tarvel_app/constants/colors.dart';
 import 'package:tarvel_app/global-Widgets/back_buttom.dart';
 import 'package:tarvel_app/screens/location_detail_screen/components/rating_icon.dart';
@@ -19,6 +20,10 @@ import 'components/image_header.dart';
 class BodyTour extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+      statusBarColor: Colors.white,
+      statusBarBrightness: Brightness.light,
+    ));
     return Scaffold(
       body: Stack(
         children: [
@@ -36,8 +41,9 @@ class BodyTour extends StatelessWidget {
             // BackButtom Value
 
             child: BackButtom(
-              icon: Icon(
+              icon: const Icon(
                 Icons.arrow_back,
+                color: Colors.white,
               ),
             ),
           ),

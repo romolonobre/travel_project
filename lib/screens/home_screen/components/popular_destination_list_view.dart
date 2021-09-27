@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tarvel_app/constants/colors.dart';
 import 'package:tarvel_app/models/popular_destination.dart';
 import 'package:tarvel_app/screens/location_detail_screen/components/rating_icon.dart';
 
@@ -47,7 +48,15 @@ class PopularDestinationCard extends StatelessWidget {
       padding: const EdgeInsets.only(left: 20.0),
       child: Container(
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(15), color: Colors.white),
+            borderRadius: BorderRadius.circular(15),
+            color: Colors.white,
+            boxShadow: [
+              BoxShadow(
+                color: secondcolor,
+                blurRadius: 20,
+                spreadRadius: 10,
+              )
+            ]),
         child: Column(
           children: [
             Stack(
