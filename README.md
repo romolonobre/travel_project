@@ -7,4 +7,5 @@ into proper folders, files and added comments to make more understandable.
 
 The app has three screens :
 
-<img width="741" alt="Screen Shot 2021-09-23 at 4 55 46 pm" src="https://user-images.githubusercontent.com/85221055/134541902-bdf57bc5-40cb-43b8-9e2f-8560a51cc651.png">
+<img width="654" alt="Screen Shot 2021-09-27 at 11 13 43 am" src="https://user-images.githubusercontent.com/85221055/134890195-7ac61502-1ff8-472f-9fff-000ff8fedbae.png">
+
